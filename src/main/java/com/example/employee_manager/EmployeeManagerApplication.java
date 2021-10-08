@@ -11,9 +11,9 @@ import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 
 import java.util.Arrays;
 
+//@EnableKafka
 @EnableRabbit
 @SpringBootApplication
-@EnableKafka
 public class EmployeeManagerApplication {
 
     public static void main(String[] args) {
